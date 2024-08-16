@@ -1,0 +1,233 @@
+/* Small devices (phones, less than 768px) */
+@media screen and (min-width: 320px) and (max-width: 767.9px) {
+    body{
+
+        max-width: 767.9px;
+        min-width: 320px;
+        margin: 0;
+        box-sizing: border-box;              
+    }
+    .main-container{
+        min-width: 320px;
+        max-width: 459px;
+        box-sizing: border-box;        
+    }
+    main{
+        min-width: 320px;
+        box-sizing: border-box;
+        padding: 0;
+        
+    }
+    .Header-Booki{
+        flex-flow: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Logo{
+        height: 68%;
+    }
+    .Menu{
+        display: inline-flex;
+        min-width: 320px; 
+        max-width: 767.9px;
+        width: 100%;
+        height: 32%;      
+        gap: 0;
+    }
+    .Menu a{
+        min-width: 160px;
+        width: 100%;
+        padding: 0 0 15px 0;
+        text-align: center;
+    }
+    .Menu a:hover{    
+        color:var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        border-top: unset;
+    }
+    .Search-Filter{
+        padding: 30px 20px 0 20px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .Intro-Filter{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .search-title{
+        font-size: 16px;
+    }
+    .Search-Zone{
+        justify-content: center;
+        min-width: 268px;
+        max-width: 767.9px;
+        width: 100%;
+        height: 50px;
+        border: 1px solid var(--main-bg-color);
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+    #Find{
+        justify-content: space-between; 
+        min-width: 268px;
+        max-width: 767px;
+        width: 100%;
+        box-sizing: border-box;
+        height: 50px;
+        align-items: center;
+        background-color: unset;       
+    }
+    #Site-Search{
+        width: 66%;
+        min-width: 180px;
+        max-width: 278px;
+        height: 49px;       
+    }
+    #Mobile-Search{
+        align-self: flex-end;
+        width: 13%;
+        min-width: 49px;
+        max-width: 49px;
+        height: 49px;
+        background-color: var(--main-color);
+        border-radius: 15px;
+        border: none;
+        box-sizing: border-box;        
+    }
+    #Mobile-Search i{
+        color: var(--White-BG-color);        
+    }
+    .Search-BTN{
+        display: none;
+    }
+    .Filter-Zone{
+        display: block;
+        min-width: 268px;
+        max-width: 767.9px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;        
+    }
+    #Filter-Line{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        max-width: 100%;        
+        box-sizing: border-box;
+            
+    }
+    .Filter-BTN{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        column-gap: 10px;          
+    }
+    .Filter-BTN button{
+        width: 48%;
+        min-width: 129px;
+        max-width: 162px;
+        font-size: 14px;
+    }
+    #hebergements-and-populaires{
+        flex-flow: column-reverse;
+        width: 100%;
+        min-width: 320px;
+        max-width: 767.9px;        
+        gap: 15px;
+        box-sizing: border-box;
+    }
+    #hebergements, #populaires{
+        width: 100%;
+        min-width: 280px;
+        max-width: 767.9px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    #populaires{
+        padding-top: 30px ;
+        padding-bottom: 30px;
+    }
+    #hebergements, #Activities, #Menu-Footer, .Action-Cards, .hebergements-cards {
+        flex-flow: column nowrap;
+        background-color: var(--White-BG-color);
+        
+    }
+    .populaires-cards{
+        display: flex;
+        flex-flow: column nowrap;
+        box-sizing: border-box;
+        max-height: 100%;
+        margin-top: 15px;       
+        row-gap: 15px;
+    }
+    .populaires-cards .card{
+        margin: 0;
+    }
+    .populaires-cards a, .card{
+        max-width: 728.9px;
+        width: 100%;
+        aspect-ratio: 335/146;
+        height: 146px;
+        box-sizing: border-box;
+    }
+    .populaires-cards a .card img{
+        min-height: 100%;
+    }
+    .hebergements-cards{
+        gap: 15px;
+    }
+    .hebergements-title{
+        margin: 20px 0 15px 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .H-title{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .Card-Link, .H-cards {
+        flex: 1 1 calc(100% - 20px); /* Une carte par ligne */
+        max-width : 335px;
+        padding: 0;
+        min-width: 100%;
+    }
+    .H-Foot{
+        margin: 15px 0 20px 0;
+    }
+    #Activities{
+        max-height: unset;
+        padding-top: 0;
+    }
+    .Action-Cards{
+        row-gap: 15px;
+    }
+    .A-Cards{
+        height: 200px;
+        min-width: 100%;
+    }
+    .A-Picture{
+        height: 70%;
+        max-height: 141px;
+        min-width: 100%;
+    }
+    #Menu-Footer{
+        row-gap: 50px;
+    }
+    .titre-Li{
+        max-width: 263px;
+        box-sizing: border-box;
+        padding-left: 30px;
+        row-gap: 15px;
+    }
+    .titre-Li h2{
+        margin: 0;
+    } 
+}
+/*Résolution comprise en mobile entre 460px et 767.9px ajout d'une marge pour conserver l'aspect et le visuel du mobile*/
+@media screen and (min-width: 460px) and (max-width: 767.9px){
+    .main-container{
+        margin: 0 auto;        
+    }
+}

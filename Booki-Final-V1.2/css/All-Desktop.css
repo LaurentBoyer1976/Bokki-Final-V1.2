@@ -1,0 +1,58 @@
+/*Normal devices screen and 1024px et 1440px*/
+@media screen and (min-width: 1024.1px) and (max-width: 1440px) {
+    #Mobile-Search{
+        display: none;
+       }
+       br{
+        display: none;
+       }
+       .H-cards, .Card-Link{
+        display: flex;
+        max-height: 207.25px;        
+        max-width: 250.33px;
+        flex: 1 1 calc(33.33% - 30px);    
+        aspect-ratio: 207.25/250.33;
+        box-sizing: border-box;
+       }
+}
+@media screen and (min-width: 1024.1px) and (max-width: 1146.99px){
+
+    .hebergements-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;   
+        justify-content: space-between;
+        gap: 20px;
+          
+    }
+        .H-cards, .Card-Link{
+        display: flex;
+        min-height: 207.25px;
+        min-width: 159px;       
+        max-width: 250.33px;
+        flex: 1 1 calc(20% - 20px);
+        aspect-ratio: 207.25/159;
+        box-sizing: border-box;
+    }
+    .H-card-content{
+        gap: unset;
+    }
+
+}
+
+/*Large devices (big screen more than 1440px)*/
+@media screen and (min-width: 1440.1px){
+  
+.main-container{
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+   }
+   #Mobile-Search{
+    display: none;
+   }
+   br{
+    display: none;
+   }
+
+}
